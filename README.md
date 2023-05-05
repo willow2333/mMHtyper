@@ -2,7 +2,7 @@
 ### Overview
 
 &emsp; &emsp; mMHtyper is an end-to-end pipeline for recognizing the multi-SNP microhaplotypes in Nanopore sequencing
-data. If you have more than 2 SNPs to recognize microhaplotypes, you can choose mMHtyper not MHtyper.
+data. If you have more than two SNPs to recognize microhaplotypes, you can choose mMHtyper not MHtyper.
 
 ### mMHtyper workflow
 
