@@ -23,6 +23,7 @@ length according to your work.
 
 |MiniHap name|chromosome|db SNP|Position (GRCh38)|REF|ALT|
 |------------|----------|------|-----------------|---|---|
+
 &emsp;MiniHap name: The name of your multi-SNP microhaplotypes.
 
 &emsp;Chromosome: The name of Chromosome.
