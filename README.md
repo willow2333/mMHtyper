@@ -80,7 +80,7 @@ length according to your work.
    cd mMHtyper  
    python Scripts/Phasing.py --h
    
-  usage: Phasing.py [-h] [--sampledir SAMPLEDIR] [--ref REF] [--bed BED]
+   usage: Phasing.py [-h] [--sampledir SAMPLEDIR] [--ref REF] [--bed BED]
 
     optional arguments:
       -h, --help            show this help message and exit
