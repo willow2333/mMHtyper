@@ -73,7 +73,7 @@ length according to your work.
    conda install --yes --file requirements.txt
 ```
 
-### CmVCall installation
+### mMHtyper installation
 
 ```
    git clone https://github.com/willow2333/mMHtyper.git
