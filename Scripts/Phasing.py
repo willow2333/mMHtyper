@@ -51,12 +51,6 @@ def PhasingRun(P, ref,bed):
 
 
 if __name__ == '__main__':
-    # P = Path(r'/data/qinliu/Sever/mMHtyper/test')
-    # ref=r'/data/qinliu/Reference/reference_genome/hg38_puire/hg.38.fa'
-    # bed = r'/data/qinliu/Sever/Forensic_multiSNP_new/multiSNP_WZ_200.bed'
-    # PhasingRun(P, ref, bed)
-
-
     parser = argparse.ArgumentParser()
     parser.add_argument("--sampledir",help='The absolute path of fastq files, the fastq files need be gzip and named *.fq.gz')
     parser.add_argument("--ref",help='The absolute path of reference file')
