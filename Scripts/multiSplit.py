@@ -29,7 +29,6 @@ class MultiSplit:
     def __init__(self, bed):
         print('bed file load !')
         bedfiles = bed
-        # bedfiles = r'/data/qinliu/Sever/Forensic_multiSNP/multiSNP_WF.bed'
         self.beddf = pd.read_csv(bedfiles, sep='\t')
         self.groupdf = self.beddf.groupby(by='MiniHap name')
         self.sitesbed = {}
