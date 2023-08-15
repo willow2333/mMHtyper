@@ -69,8 +69,6 @@ class Run():
                            'C': variantmergedf['C'].tolist()[i],
                            'G': variantmergedf['G'].tolist()[i],
                            '*': variantmergedf['*'].tolist()[i]}
-            # if varaintdict['*'] < 0.8:
-            #     del varaintdict["*"]
             varaintdictsort = dict(sorted(varaintdict.items(), key=lambda dict: dict[1], reverse=True))
             maxvariant = list(varaintdictsort.keys())[0]
 
