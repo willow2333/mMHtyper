@@ -14,9 +14,9 @@ from pathlib import Path
 from run import Run
 import os
 
-NanoFilt=r'/data/qinliu/software/Anaconda3/envs/Nano/bin/NanoFilt'
-minimap2 = '/data/qinliu/software/Anaconda3/envs/Forensic/bin/minimap2'
-samtools = '/data/qinliu/software/Anaconda3/envs/Forensic/bin/samtools'
+NanoFilt=r'/path/software/Anaconda3/envs/Nano/bin/NanoFilt'
+minimap2 = '/path/software/Anaconda3/envs/Forensic/bin/minimap2'
+samtools = '/path/software/Anaconda3/envs/Forensic/bin/samtools'
 
 def PhasingRun(P, ref,bed):
     namelist = [i for i in os.listdir(P) if i.endswith('.fq.gz')]
