@@ -18,11 +18,11 @@ import subprocess
 According the bed file spilt the big bam file !!!
 '''
 
-samtools = '/data/qinliu/software/Anaconda3/envs/Forensic/bin/samtools'
-CONSENT = '/data/qinliu/software/Anaconda3/envs/Forensic/bin/CONSENT-correct'
-seqkit = '/data/qinliu/software/Anaconda3/envs/Forensic/bin/seqkit'
-ref = '/data/qinliu/Reference/reference_genome/hg38_puire/hg.38.fa'
-minimap2 = '/data/qinliu/software/Anaconda3/envs/Forensic/bin/minimap2'
+samtools = '/path/software/Anaconda3/envs/Forensic/bin/samtools'
+CONSENT = '/path/software/Anaconda3/envs/Forensic/bin/CONSENT-correct'
+seqkit = '/path/software/Anaconda3/envs/Forensic/bin/seqkit'
+ref = '/path/Reference/reference_genome/hg38_puire/hg.38.fa'
+minimap2 = '/path/software/Anaconda3/envs/Forensic/bin/minimap2'
 
 
 class MultiSplit:
