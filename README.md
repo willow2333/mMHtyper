@@ -96,7 +96,7 @@ length according to your work.
 #### 1.Test
 
 ```
-   python Scripts/Phasing.py  --sampledir {path} --ref hg38.fa  --bed XX.bed 
+   python mMHtyper.py  --sampledir {path} --ref hg38.fa  --bed XX.bed 
 ```
 
 
