@@ -78,7 +78,7 @@ length according to your work.
 ```
    git clone https://github.com/willow2333/mMHtyper.git
    cd mMHtyper  
-   python Scripts/Phasing.py --h
+   python mMHtyper.py --h
    
    usage: Phasing.py [-h] [--sampledir SAMPLEDIR] [--ref REF] [--bed BED]
 
