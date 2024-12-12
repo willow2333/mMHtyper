@@ -53,7 +53,7 @@ length according to your work.
 
 &emsp;db SNP: The ID of SNP.
 
-&emsp; genotypes: The genotypes of SNP.
+&emsp;genotypes: The genotypes of SNP.
 
 &emsp;depth: The depth of SNP, the max depth is 10000.
 
